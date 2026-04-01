@@ -1,0 +1,152 @@
+[
+  {
+    "questionText": "Which of the following is an immutable data type in Python?",
+    "options": ["List", "Dictionary", "Set", "Tuple"],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "In Python, what does the __init__ method do?",
+    "options": ["It initializes a new object (Constructor).", "It deletes an object (Destructor).", "It imports a module.", "It converts an object to a string."],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "What does *args represent in a function definition?",
+    "options": ["A list of keyword arguments.", "A single mandatory argument.", "A variable number of non-keyword arguments.", "A pointer to a variable."],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "What is the difference between == and ===?",
+    "options": ["== checks value, === checks value and type.", "== is for numbers, === is for strings.", "There is no difference.", "=== is used for assignment."],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "What is a \"Closure\"?",
+    "options": ["A function that has access to its outer function's scope even after the outer function has returned.", "A way to close a browser tab using code.", "The end of a loop.", "A method to minify JavaScript files."],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "How do you write \"Hi Codex\" in an alert box?",
+    "options": ["msg (\"Hi Codex \");", "alert Box (\"Hi Codex\");", "alert (\"Hi Codex\");", "console.log (\"Hi Codex \")"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "What is the output of python [1:4]?",
+    "options": ["pyt", "yth", "ytho", "tho"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Which keyword is used to return a value from a function?",
+    "options": ["break", "stop", "return", "exit"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which loop executes at least once?",
+    "options": ["for", "while", "do-while", "nested for"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which method is the entry point of a Java program?",
+    "options": ["start ()", "init ()", "main ()", "run ()"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which collection does not allow duplicate elements?",
+    "options": ["List", "Array List", "Set", "Queue"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "What is the result of typeof(“sigmoid”)?",
+    "options": ["text", "string", "object", "char"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "What does Promise.all() do?",
+    "options": ["Returns the first resolved promise only", "Waits for all promises and rejects if any one rejects", "Ignores rejected promises", "Converts promises to callbacks"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "CSS stands for:",
+    "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style Syntax", "Colourful Style Sheets"],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "A class is a:",
+    "options": ["method", "variable", "blueprint for objects", "package"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which data structure follows FIFO?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Which attribute provides alternate text for an image?",
+    "options": ["title", "alt", "caption", "name"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Which data structure is typically used for Breadth First Search?",
+    "options": ["Stack", "Queue", "Heap", "Array"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "What is the correct HTML for creating a hyperlink?",
+    "options": ["<a url=\"http://google.com\">Google</a>", "<a>http://google.com</a>", "<a href=\"http://google.com\">Google</a>", "<link src=\"http://google.com\">Google</link>"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which SQL statement is used to extract data from a database?",
+    "options": ["OPEN", "GET", "SELECT", "EXTRACT"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "How do you select a column named \"FirstName\" from a table named \"Persons\"?",
+    "options": ["SELECT Persons.FirstName", "EXTRACT FirstName FROM Persons", "SELECT FirstName FROM Persons", "GET FirstName FROM Persons"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which collection allows unique elements only?",
+    "options": ["ArrayList", "LinkedList", "Vector", "HashSet"],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "What is a \"lambda\" function?",
+    "options": ["A function that runs in the background.", "A recursive function.", "A small, anonymous one-line function.", "A function used only for mathematical calculations."],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which SQL keyword is used to sort the result-set?",
+    "options": ["SORT BY", "ORDER BY", "GROUP BY", "ARRANGE BY"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "What does this print? print(round(2.5), round(3.5))",
+    "options": ["2 3", "3 4", "2 4", "3 3"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "What is the output? System.out.println(10 + 20 + \"Java\");",
+    "options": ["1020Java", "30Java", "Java30", "Error"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "What is the output? function say () { console.log(name); var name = \"Codex\"; } say ();",
+    "options": ["Codex", "Reference Error", "undefined", "null"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which of these is used to stop an interval?",
+    "options": ["stopInterval ()", "clearInterval ()", "endTimeout ()", "pause()"],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "What does Promise.resolve(5) return?",
+    "options": ["A number 5", "A pending Promise", "A fulfilled Promise with value 5", "undefined"],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which code creates a checkbox?",
+    "options": ["<input type=\"check\">", "<check>", "<input type=\"checkbox\">", "<checkbox>"],
+    "correctOptionIndex": 2
+  }
+]
