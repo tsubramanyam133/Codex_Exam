@@ -32,7 +32,7 @@ const Login = ({ onLogin }) => {
 
   return (
     <div className="card">
-      <h1 className="title"> Codex 2K26 <span>🚀</span></h1>
+      <h1 className="title"> Quiz <span>🚀</span></h1>
       {error && <div style={{ color: 'var(--error)', marginBottom: '1rem', textAlign: 'center' }}>{error}</div>}
       <form onSubmit={handleSubmit}>
         <div className="input-group">
