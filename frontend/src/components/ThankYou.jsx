@@ -1,12 +1,17 @@
-import { CheckCircle, Download } from 'lucide-react';
+import { useState } from 'react';
+import { CheckCircle, Download, Home } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 
 const ThankYou = ({ examResult }) => {
+  const [isDownloading, setIsDownloading] = useState(false);
+
   const handleDownloadPDF = () => {
     try {
+      setIsDownloading(true);
       if (!examResult || !examResult.detailedResults) {
         alert("Results details not available. This happens if the backend is not yet updated or returned old data.");
+        setIsDownloading(false);
         return;
       }
 
@@ -44,17 +49,25 @@ const ThankYou = ({ examResult }) => {
         startY: 40,
         styles: { fontSize: 10, cellPadding: 3 },
         columnStyles: {
-          0: { cellWidth: 80 },
+          0: { cellWidth: 75 },
           1: { cellWidth: 40 },
           2: { cellWidth: 40 },
-          3: { cellWidth: 20 }
+          3: { cellWidth: 15 }
         }
       });
 
       doc.save('exam_results.pdf');
+      
+      // Provide explicit visual feedback to the user
+      setTimeout(() => {
+        setIsDownloading(false);
+        alert("Report generated successfully! Please check your browser's 'Downloads' folder or the top-right download icon in Chrome.");
+      }, 1000);
+
     } catch (err) {
       console.error(err);
       alert("Error generating PDF: " + err.message);
+      setIsDownloading(false);
     }
   };
 
@@ -71,9 +84,14 @@ const ThankYou = ({ examResult }) => {
           <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem', fontWeight: 'bold' }}>
             Your Score: {examResult.score} / {examResult.total}
           </p>
-          <button onClick={handleDownloadPDF} className="btn" style={{ display: 'flex', alignItems: 'center', gap: '8px', maxWidth: '250px' }}>
-            <Download size={20} /> Download Report
-          </button>
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <button onClick={handleDownloadPDF} disabled={isDownloading} className="btn" style={{ display: 'flex', alignItems: 'center', gap: '8px', maxWidth: '250px' }}>
+              <Download size={20} /> {isDownloading ? 'Generating...' : 'Download Report'}
+            </button>
+            <button onClick={() => window.location.reload()} className="btn" style={{ display: 'flex', alignItems: 'center', gap: '8px', maxWidth: '250px', background: 'var(--surface)', color: 'var(--text-main)', border: '1px solid var(--border)' }}>
+              <Home size={20} /> Return Home
+            </button>
+          </div>
         </div>
       )}
     </div>
