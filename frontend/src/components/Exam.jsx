@@ -11,8 +11,8 @@ const Exam = ({ user, onSubmit }) => {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   
-  // Timer state (30 minutes)
-  const [timeLeft, setTimeLeft] = useState(30 * 60);
+  // Timer state (180 minutes)
+  const [timeLeft, setTimeLeft] = useState(180 * 60);
 
   // Refs to avoid stale closures in event listeners
   const answersRef = useRef(answers);
@@ -83,7 +83,7 @@ const Exam = ({ user, onSubmit }) => {
           selectedOptionIndex: oIndex
         }));
         
-        const timeTakenSeconds = (30 * 60) - timeLeftRef.current;
+        const timeTakenSeconds = (180 * 60) - timeLeftRef.current;
         const blob = new Blob([JSON.stringify({ userId: user._id, answers: formattedAnswers, timeTakenSeconds })], { type: 'application/json' });
         navigator.sendBeacon(`${API_URL}/api/submit`, blob);
       }
@@ -112,7 +112,7 @@ const Exam = ({ user, onSubmit }) => {
       selectedOptionIndex: oIndex
     }));
     
-    const timeTakenSeconds = (30 * 60) - timeLeftRef.current;
+    const timeTakenSeconds = (180 * 60) - timeLeftRef.current;
 
     try {
       const response = await axios.post(`${API_URL}/api/submit`, {
@@ -120,7 +120,7 @@ const Exam = ({ user, onSubmit }) => {
         answers: formattedAnswers,
         timeTakenSeconds
       });
-      onSubmit(response.data.score, response.data.total);
+      onSubmit(response.data.score, response.data.total, response.data.detailedResults);
     } catch (error) {
       console.error('Failed to submit exam:', error);
       alert('Error submitting exam automatically.');

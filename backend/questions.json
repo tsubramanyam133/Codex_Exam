@@ -1,152 +1,1102 @@
 [
   {
-    "questionText": "Which of the following is an immutable data type in Python?",
-    "options": ["List", "Dictionary", "Set", "Tuple"],
+    "questionText": "Ikea’s business development is based, fundamentally, on:",
+    "options": [
+      "Minimalist but durable and elegant furniture",
+      "Restaurants",
+      "Custom manufacturing of furniture",
+      "It being a European company"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "McDonald’s is a:",
+    "options": [
+      "Primarily US brand",
+      "Primarily EU brand",
+      "Primarily Asian brand",
+      "Global brand"
+    ],
     "correctOptionIndex": 3
   },
   {
-    "questionText": "In Python, what does the __init__ method do?",
-    "options": ["It initializes a new object (Constructor).", "It deletes an object (Destructor).", "It imports a module.", "It converts an object to a string."],
+    "questionText": "What describes Toyota best?",
+    "options": [
+      "Toyota Production System",
+      "Small car manufacture",
+      "Toyoda Tsusho exports",
+      "Toyoda textile looms"
+    ],
     "correctOptionIndex": 0
   },
   {
-    "questionText": "What does *args represent in a function definition?",
-    "options": ["A list of keyword arguments.", "A single mandatory argument.", "A variable number of non-keyword arguments.", "A pointer to a variable."],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "What is the difference between == and ===?",
-    "options": ["== checks value, === checks value and type.", "== is for numbers, === is for strings.", "There is no difference.", "=== is used for assignment."],
-    "correctOptionIndex": 0
-  },
-  {
-    "questionText": "What is a \"Closure\"?",
-    "options": ["A function that has access to its outer function's scope even after the outer function has returned.", "A way to close a browser tab using code.", "The end of a loop.", "A method to minify JavaScript files."],
-    "correctOptionIndex": 0
-  },
-  {
-    "questionText": "How do you write \"Hi Codex\" in an alert box?",
-    "options": ["msg (\"Hi Codex \");", "alert Box (\"Hi Codex\");", "alert (\"Hi Codex\");", "console.log (\"Hi Codex \")"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "What is the output of python [1:4]?",
-    "options": ["pyt", "yth", "ytho", "tho"],
+    "questionText": "Business markets could be larger and more stable, but are characterised by:",
+    "options": [
+      "Reverse marketing",
+      "Higher buyer power",
+      "Lower buyer power",
+      "Lower competition"
+    ],
     "correctOptionIndex": 1
   },
   {
-    "questionText": "Which keyword is used to return a value from a function?",
-    "options": ["break", "stop", "return", "exit"],
+    "questionText": "Which of the following is an example of a whole new market getting built around a completely novel product?",
+    "options": [
+      "6-inch plus-size smartphone",
+      "Low-emission ICE vehicle",
+      "Drone",
+      "Wide-bodied aircraft"
+    ],
     "correctOptionIndex": 2
   },
   {
-    "questionText": "Which loop executes at least once?",
-    "options": ["for", "while", "do-while", "nested for"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "Which method is the entry point of a Java program?",
-    "options": ["start ()", "init ()", "main ()", "run ()"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "Which collection does not allow duplicate elements?",
-    "options": ["List", "Array List", "Set", "Queue"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "What is the result of typeof(“sigmoid”)?",
-    "options": ["text", "string", "object", "char"],
-    "correctOptionIndex": 1
-  },
-  {
-    "questionText": "What does Promise.all() do?",
-    "options": ["Returns the first resolved promise only", "Waits for all promises and rejects if any one rejects", "Ignores rejected promises", "Converts promises to callbacks"],
-    "correctOptionIndex": 1
-  },
-  {
-    "questionText": "CSS stands for:",
-    "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style Syntax", "Colourful Style Sheets"],
-    "correctOptionIndex": 0
-  },
-  {
-    "questionText": "A class is a:",
-    "options": ["method", "variable", "blueprint for objects", "package"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "Which data structure follows FIFO?",
-    "options": ["Stack", "Queue", "Tree", "Graph"],
-    "correctOptionIndex": 1
-  },
-  {
-    "questionText": "Which attribute provides alternate text for an image?",
-    "options": ["title", "alt", "caption", "name"],
-    "correctOptionIndex": 1
-  },
-  {
-    "questionText": "Which data structure is typically used for Breadth First Search?",
-    "options": ["Stack", "Queue", "Heap", "Array"],
-    "correctOptionIndex": 1
-  },
-  {
-    "questionText": "What is the correct HTML for creating a hyperlink?",
-    "options": ["<a url=\"http://google.com\">Google</a>", "<a>http://google.com</a>", "<a href=\"http://google.com\">Google</a>", "<link src=\"http://google.com\">Google</link>"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "Which SQL statement is used to extract data from a database?",
-    "options": ["OPEN", "GET", "SELECT", "EXTRACT"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "How do you select a column named \"FirstName\" from a table named \"Persons\"?",
-    "options": ["SELECT Persons.FirstName", "EXTRACT FirstName FROM Persons", "SELECT FirstName FROM Persons", "GET FirstName FROM Persons"],
-    "correctOptionIndex": 2
-  },
-  {
-    "questionText": "Which collection allows unique elements only?",
-    "options": ["ArrayList", "LinkedList", "Vector", "HashSet"],
+    "questionText": "Which of the following helps strategic marketing and business development for industrial transformations?",
+    "options": [
+      "Sales feedback",
+      "Exponential smoothing",
+      "Statistical forecasting",
+      "Analysis of mega trends"
+    ],
     "correctOptionIndex": 3
   },
   {
-    "questionText": "What is a \"lambda\" function?",
-    "options": ["A function that runs in the background.", "A recursive function.", "A small, anonymous one-line function.", "A function used only for mathematical calculations."],
-    "correctOptionIndex": 2
+    "questionText": "A particular shoe company is famous for its “Just do it” campaign. Which of the following is the company?",
+    "options": [
+      "Adidas",
+      "Sketchers",
+      "Reebok",
+      "Nike"
+    ],
+    "correctOptionIndex": 3
   },
   {
-    "questionText": "Which SQL keyword is used to sort the result-set?",
-    "options": ["SORT BY", "ORDER BY", "GROUP BY", "ARRANGE BY"],
+    "questionText": "Which of the following is not a disruptive technology required for zero/clean emission vehicles?",
+    "options": [
+      "BS6 emission technology",
+      "Electric battery technology",
+      "Green hydrogen technology",
+      "Fuel Cell technology"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "Business development leaders successfully market:",
+    "options": [
+      "Opportunities",
+      "The future potential",
+      "Strengths",
+      "Threats and risks"
+    ],
     "correctOptionIndex": 1
   },
   {
-    "questionText": "What does this print? print(round(2.5), round(3.5))",
-    "options": ["2 3", "3 4", "2 4", "3 3"],
-    "correctOptionIndex": 2
+    "questionText": "Marico had to fend off hostile actions from an MNC with regard to coconut oil and a business takeover. The MNC was:",
+    "options": [
+      "Hindustan Lever",
+      "Colgate",
+      "Procter & Gamble",
+      "None of the above Business"
+    ],
+    "correctOptionIndex": 0
   },
   {
-    "questionText": "What is the output? System.out.println(10 + 20 + \"Java\");",
-    "options": ["1020Java", "30Java", "Java30", "Error"],
+    "questionText": "Sugar manufacturing companies have received a business development boost due to:",
+    "options": [
+      "Methanol blending",
+      "Ethanol blending",
+      "Molasses blending",
+      "None of the above"
+    ],
     "correctOptionIndex": 1
   },
   {
-    "questionText": "What is the output? function say () { console.log(name); var name = \"Codex\"; } say ();",
-    "options": ["Codex", "Reference Error", "undefined", "null"],
-    "correctOptionIndex": 2
+    "questionText": "Which of the following is a service business?",
+    "options": [
+      "Capital Goods",
+      "Automobiles",
+      "Pharmaceuticals",
+      "Broking"
+    ],
+    "correctOptionIndex": 3
   },
   {
-    "questionText": "Which of these is used to stop an interval?",
-    "options": ["stopInterval ()", "clearInterval ()", "endTimeout ()", "pause()"],
+    "questionText": "The capital goods industry typically serves the following sectors of the economy:",
+    "options": [
+      "Agriculture",
+      "Exports",
+      "Banking",
+      "Infrastructure and Industry"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "In the Indian retail industry, the entry of organized players causes:",
+    "options": [
+      "Increase of prices to consumers in all cases",
+      "Shift from informal trade to modern trade",
+      "Decrease of prices to consumers in all cases",
+      "Cartelization of retail stores"
+    ],
     "correctOptionIndex": 1
   },
   {
-    "questionText": "What does Promise.resolve(5) return?",
-    "options": ["A number 5", "A pending Promise", "A fulfilled Promise with value 5", "undefined"],
+    "questionText": "Which of the following industries will be directly benefited by the ‘China Plus One’ policy of MNCs and the developed world?",
+    "options": [
+      "Coal industry",
+      "Chemical industry",
+      "Edible oil industry",
+      "Hotel industry"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Differentiation requires Business Development to strike a prudent balance between the market share benefits and:",
+    "options": [
+      "Market share losses",
+      "Reputation",
+      "Financial returns",
+      "Business strategy"
+    ],
     "correctOptionIndex": 2
   },
   {
-    "questionText": "Which code creates a checkbox?",
-    "options": ["<input type=\"check\">", "<check>", "<input type=\"checkbox\">", "<checkbox>"],
+    "questionText": "Skill levels of employees lead to:",
+    "options": [
+      "Good buffer for the future",
+      "Repeat work",
+      "Competitiveness of the company",
+      "Complete elimination of experience curve and learning curve"
+    ],
     "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Sudarshan Chemicals operates in the business of:",
+    "options": [
+      "Medicines",
+      "Solvents",
+      "Colours and Pigments",
+      "Fertilizers"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "The chemical industry needs extraordinary attention to:",
+    "options": [
+      "Scaling up",
+      "People management",
+      "Public relations",
+      "Safe operations"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Company analysis is done regularly by:",
+    "options": [
+      "Companies and competitors",
+      "Analysts",
+      "Investors",
+      "All the above Business"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Strategic marketing for the Indian chemical industry must be based on:",
+    "options": [
+      "Individual customers and homes",
+      "Business users and industries",
+      "Governments",
+      "None of the above"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "When faced with technological disruption, demand can be forecast only through:",
+    "options": [
+      "Linear modelling",
+      "Expert opinions with simulations",
+      "Statistical analysis",
+      "Salesforce"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Analogy as a demand forecasting tool will be useful in:",
+    "options": [
+      "Consumer durables industry",
+      "Equipment industry",
+      "Food and beverages industry",
+      "Automobile industry"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "In competitor analysis, the following is often ignored:",
+    "options": [
+      "Financial strength",
+      "Leadership strength",
+      "Physical performance",
+      "Financial performance"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Ambani and Adani are known for their:",
+    "options": [
+      "Secrecy in their new ventures",
+      "Being silent their approaches",
+      "Competitive statements on future goals and investments",
+      "None of the above"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Demand estimation can be:",
+    "options": [
+      "Only top-down",
+      "Only bottom-up",
+      "Both top-down and bottom-up",
+      "Anything but structured"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Test marketing will be appropriate for the:",
+    "options": [
+      "Initial design concept",
+      "Fully finished product",
+      "Basic prototype",
+      "Manufacturing concept"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Market adoption means:",
+    "options": [
+      "Spread of user awareness",
+      "Making of first sale",
+      "Converting aware customers to actual users",
+      "Changing product profiles"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Smartphones in India exemplify:",
+    "options": [
+      "Price-driven adoption",
+      "Late adoption",
+      "Early and rapid adoption",
+      "Slow adoption"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "A higher price works as a competitive strategy for firms that are:",
+    "options": [
+      "Cost-competitive",
+      "Volume drivers",
+      "Differentiated or innovative",
+      "High in scale  Business"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "In a customer-oriented organization, the feature will be: the other",
+    "options": [
+      "Low price of a product",
+      "Standardised specification for a product",
+      "Sales-related incentives to field staff",
+      "All departments will have an interface with customers or their needs in one way or"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Business development is about offering the following to customers:",
+    "options": [
+      "Just products or services",
+      "Annual maintenance contracts",
+      "Exchange of products",
+      "Personalised customer experiences, along with the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "A more recent approach to understanding customer needs and providing solutions is:",
+    "options": [
+      "Market research",
+      "Market analysis",
+      "Income analysis",
+      "Design thinking"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Steve Job’s leadership lay in providing:",
+    "options": [
+      "Scores of products of different specifications to just a few customer segments",
+      "Elegant high-specification products to all the customer segments",
+      "Products of the lowest price",
+      "None of the above"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "A customer’s typology is usually made up of:",
+    "options": [
+      "A single attribute",
+      "No attribute at all",
+      "Different attributes",
+      "Completely unpredictable attributes"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Likert scale in market research captures the level of the customer’s:",
+    "options": [
+      "Organisation-disorganisation",
+      "Interest-disinterest",
+      "Happiness-unhappiness",
+      "Agreement-disagreement"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Which of these is not a characteristic of a good market research?",
+    "options": [
+      "Scientific method",
+      "Impulsive conclusion",
+      "Objectivity",
+      "Sampling methodology"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "The following is not an example of a consumer bonding effort:",
+    "options": [
+      "Loyalty points",
+      "Consumer offers",
+      "Consumer events",
+      "Charging high prices in periods of shortage"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Britannia is running a CSR cum marketing programme called:",
+    "options": [
+      "Entrepreneur",
+      "Biscuiteer",
+      "Homepreneur",
+      "My Britannia"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "B2B Connect platforms help a company in:",
+    "options": [
+      "Showcasing new generation, futuristic products",
+      "Better utilisation of capacities",
+      "Better pricing",
+      "industry rivalry Business"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "A majority of global companies started business in the:",
+    "options": [
+      "Foreign countries",
+      "Native and foreign countries simultaneously",
+      "In the native countries with 100% outsourcing and offshoring",
+      "Native countries"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "In India, certain companies in the following industry started as 100% export-oriented units:",
+    "options": [
+      "Pharmaceutical industry",
+      "Automobile industry",
+      "Capital goods industry",
+      "Dairy industry"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "India’s early global trading by entrepreneurs was on:",
+    "options": [
+      "Hand tools",
+      "Machine tools",
+      "Contract research",
+      "Spices"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Airlines provide segmented classes of travel such as economy, business and first to cater to:",
+    "options": [
+      "Purpose of travel",
+      "Status of travellers",
+      "Income of travellers",
+      "Income, status of travellers, and purpose of travel"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Which of the following categories has led to the emergence of global behemoths based on just one product?",
+    "options": [
+      "Breads",
+      "Carbonated beverages",
+      "Staples",
+      "Cars"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Which of the following products has a strong geographic association?",
+    "options": [
+      "Oils",
+      "Soaps",
+      "Textiles",
+      "Wines"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "The real estate market is:",
+    "options": [
+      "One integrated market",
+      "One fungible market",
+      "A market that is unreal",
+      "An aggregation of multiple types, such as residential, office"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "The Indian food industry has seen a significant:",
+    "options": [
+      "Exit of major packaged food corporations",
+      "Degrowth of packaged branded foods",
+      "Growth of packaged branded foods",
+      "Growth of unbranded foods"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "India is highly dependent on imports for refining the following edible oil:",
+    "options": [
+      "Rice bran oil",
+      "Mustard oil",
+      "Groundnut oil",
+      "Sunflower oil"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "To judge future long-term market growth potential in India, companies may use the following metric:",
+    "options": [
+      "Per capita consumption in India vis-à-vis the developed world",
+      "Market research",
+      "Consumer research",
+      "Innovation research"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "Adani Wilmar’s edible oil brand is:",
+    "options": [
+      "Saffola",
+      "Freedom",
+      "Dhara",
+      "Fortune"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "For ensuring the effectiveness and growth of the brand, a product manager has to interface with:",
+    "options": [
+      "Only the sales function",
+      "All functions of the company",
+      "Only the finance function",
+      "Only the production and sales functions"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Salesforce effectiveness is a function of:",
+    "options": [
+      "Salesforce size",
+      "Market size",
+      "Sales targets",
+      "Training and development imparted for the salesforce"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Performance management of sales division starts with:",
+    "options": [
+      "Company vision",
+      "Company mission, Business strategy and Sales plan",
+      "Field execution",
+      "Salesforce monitoring"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "The following is an important, but often ignored, component of any communication process:",
+    "options": [
+      "Sending of a message",
+      "Receiving of a message",
+      "Feedback on the nature and content of the message",
+      "Responding to the instruction"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "The combined objective of an effective advertising campaign for a product or service is to:",
+    "options": [
+      "Spread awareness",
+      "Induce trial",
+      "Ensure purchase and repeat purchase",
+      "All the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "An externally focused activity that is not directly related to sales and marketing could do a lot of good for the company and brand image. It is:",
+    "options": [
+      "Intellectual property",
+      "Government relations",
+      "Corporate Social Responsibility",
+      "Cybersecurity"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Price of a product has the most relevant bearing on the:",
+    "options": [
+      "Morale of the society",
+      "Value perceived by the customer",
+      "Morale of the users",
+      "Value ignored by the customer"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Customers attach utmost importance to the following, besides performance, as far as quality is considered:",
+    "options": [
+      "Durability and reliability",
+      "Price",
+      "Service arrangements",
+      "Responsiveness"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "The concept of experience curve or learning curve suggests that cost of production will reduce with:",
+    "options": [
+      "Volume increases over time",
+      "More people under training",
+      "Volume decreases over time",
+      "Facility expansion with time"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "The case of Happiest Minds proves that it is possible to enter a crowded industry segment and yet be successful based on:",
+    "options": [
+      "Just skilled talent",
+      "Just good service",
+      "Just business development",
+      "Only with all the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "The trigger for the founding of Happiest Minds was the bid by the following Conglomerate on MindTree:",
+    "options": [
+      "HCL",
+      "Infosys",
+      "L&T",
+      "TCS"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Happiest Minds business development has been made possible by:",
+    "options": [
+      "Only the founder’s legacy relationships",
+      "Only new products and services",
+      "Only people skills",
+      "All the above together"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Happiest Minds derives over 95% of its revenues from:",
+    "options": [
+      "Old economy software coding services",
+      "New age digital services",
+      "ERP solutions",
+      "Body shopping"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Nirma’s business development strategy is based on:",
+    "options": [
+      "Only integration",
+      "Only FMCG diversification",
+      "Only FMCG integration and diversification",
+      "FMCG and Non-FMCG integration and diversification"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Nirma became a notable player in cement through:",
+    "options": [
+      "Only organic growth",
+      "Only inorganic growth",
+      "A combination of organic and inorganic growth",
+      "Divestments rather than investments"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "A logistics start-up such as Delhivery cannot even operate without:",
+    "options": [
+      "Warehouses",
+      "Trucks and drivers",
+      "Digital backbone",
+      "Vision and mission"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "In 2022, Delhivery launched the following for enhanced customer service:",
+    "options": [
+      "Disaggregated customer modules",
+      "WhatsApp business account",
+      "Kardex system",
+      "Unified customer portal"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Delhivery also provides:",
+    "options": [
+      "Contract management services",
+      "Support to other start-ups",
+      "Integrated transport solutions for companies",
+      "Software development for others"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "The digital network that Delhivery joined in 2022 is:",
+    "options": [
+      "CDC",
+      "DDC",
+      "ODC",
+      "ONDC"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "In technical collaboration, the following is involved:",
+    "options": [
+      "Licensing of technology without any expectation",
+      "Franchising of technology",
+      "Licensing of a technology for a fee and/or royalty",
+      "Acquisition of technology and product"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Successful technical collaborations may evolve into:",
+    "options": [
+      "Continued dependence on the licensor for supply of components",
+      "Supply of indigenised components by the licensee to the licensor",
+      "Premature terminations",
+      "None of the above"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "The global pharmaceutical corporation that runs an Innovation Mall for open-sourcing of solutions in drug development is:",
+    "options": [
+      "BMS",
+      "Merck",
+      "Pfizer",
+      "Eli Lilly"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Technical collaborations are limited time arrangements that envisage:",
+    "options": [
+      "Continued dependence on technology even after the term",
+      "Conversion into joint ventures automatically",
+      "Indigenisation of technology during the term of the agreement",
+      "Import of completely built products"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "For an alliance to succeed which combination is the most important?",
+    "options": [
+      "Strategic fit and Competency fit",
+      "Competency fit and Organisational fit",
+      "Strategic fit, Competency fit, Organisational fit and Cultural fit",
+      "Strategic fit and Cultural fit"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "A contract development and manufacturing organisation that supports multiple business partners typically adopts which of the following business development structures?",
+    "options": [
+      "Licensing with each partner",
+      "Strategic alliance with fee for service for each partner",
+      "Joint venture with each partner",
+      "Franchising with each partner"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Joint ventures tend to experience turbulent and stressful phases when:",
+    "options": [
+      "They integrate well",
+      "Disablers overpower enablers",
+      "Enablers overpower disablers",
+      "There exist no enablers or disablers"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "When an MNC enters a country to secure resources for itself, it is called:",
+    "options": [
+      "Security alliance",
+      "Growth alliance",
+      "Complementarity alliance",
+      "Value alliance"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "The interesting aspect of Hero Honda JV and the separation of the JV partners has been that after the separation, Hero and Honda: by the JV",
+    "options": [
+      "Sold more vehicles and more models in the aggregate than likely to have been sold",
+      "Sold, in the aggregate, less vehicles than sold by the JV",
+      "Sold, in the aggregate, the same number of vehicles than sold by the JV",
+      "Stuck to the JV product line and did not diversify"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "Which of the following Indian pharma companies followed the strategy of joint ventures with global players for the oncology products?",
+    "options": [
+      "Lupin",
+      "Sun Pharma",
+      "Dr Reddy’s",
+      "Zydus Cadila"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Apple component supplier and assembly system is highly and predominantly focused on:",
+    "options": [
+      "European countries",
+      "Asian countries",
+      "USA",
+      "Japan"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Adalimumab (Humira) medicine is:",
+    "options": [
+      "A synthetic chemical product",
+      "A biological product",
+      "A biosimilar product",
+      "A genetic product"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Operations strategy of a firm determines:",
+    "options": [
+      "Only capacity of supply",
+      "Only quality of supply",
+      "Only cost of supply",
+      "Capacity, quality and cost of supply"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "In an organisation, passion and energy are best described as:",
+    "options": [
+      "Independent attributes with no influence on each other",
+      "Not connected with each other",
+      "Interrelated with each other",
+      "mutually exclusive"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Negotiation between two partners seeks to develop an agreement in which:",
+    "options": [
+      "the dominant partner wins over the other",
+      "the weaker partner stalls till it gets its due",
+      "Both have a shared win-win agenda",
+      "Neither partner is a winner"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Every negotiation must have a pricing outcome. The zone of possible price negotiation: intention",
+    "options": [
+      "Can never be determined",
+      "Is never transparent",
+      "Lies between the Buyer’s minimum price intention and the Seller’s maximum price",
+      "None of the above"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "The value chain of a company describes the functions and domains which can be used by a business development leader to:",
+    "options": [
+      "Shuffle them as an executive responsibility",
+      "Exit from them as a financial initiative",
+      "Understand and project the company’s competencies",
+      "Reconstruct them as a CEO"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "The following is an important aspect of culture and negotiation:",
+    "options": [
+      "Agreement form",
+      "Time sense",
+      "Objectivity",
+      "All the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Japanese business etiquette requires that persons be addressed respectfully with suffix of:",
+    "options": [
+      "Esquire",
+      "Sayonara",
+      "Arigato",
+      "San"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "In organisational and leadership contexts, a firm belief in the reliability, integrity, or ability of an individual or institution is referred to as:",
+    "options": [
+      "Stand",
+      "View",
+      "Opinion",
+      "Trust"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "The skill and control over the design and manufacturing capabilities determine how companies can achieve strategic fit with their:",
+    "options": [
+      "Analysts",
+      "Shareholders",
+      "Strategic customers",
+      "Internal departments"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "A company will be less vulnerable to new entrants and new technology-driven competition if the company:",
+    "options": [
+      "Has only financial strength",
+      "Is large, with a high market share",
+      "Is small, with a low market share",
+      "Continues on the path of continuous product and market improvement"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Which of the following is true?",
+    "options": [
+      "Innovation can occur only in respect of product",
+      "Innovation can occur in any and all parts of a company’s value chain",
+      "Innovation can occur only in start-ups",
+      "Innovation cannot occur in marketing"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "One of the more recent improvements in lighting, which is also backed by Nobel Prize-winning science and technology, has been:",
+    "options": [
+      "LED lighting",
+      "LCD lighting",
+      "Fluorescent lighting",
+      "Incandescent lighting"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "Corning is a great example of global business growth based largely on one product category. Corning’s core competence is in:",
+    "options": [
+      "Processing of cobalt",
+      "Processing of glass",
+      "Processing of Lithium",
+      "Processing of Ion"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "Which of the following integrates hardware and software of a device?",
+    "options": [
+      "Timeliness objective",
+      "Market objective",
+      "Operating system",
+      "R&D objective"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "3D printing is also called:",
+    "options": [
+      "Rapid printing",
+      "Deductive manufacturing",
+      "360-degree printing",
+      "Additive manufacturing"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Roku Roku Sangyo of Japan deploys the following in its machine tools. That feature provides competitive advantage for business development for the company:",
+    "options": [
+      "Sensors and IoT",
+      "Tools",
+      "Machines",
+      "Machines with tools"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "Firms in the fragmented industry must understand the following and plan their strategies accordingly:",
+    "options": [
+      "Market",
+      "Firm",
+      "Finance",
+      "Structural limitations which include the above and more"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "New technologies, new business models, and hence new industries emerge all the time. An example of this is:",
+    "options": [
+      "Green hydrogen",
+      "mRNA vaccine technology",
+      "Chemical-free consumer products",
+      "All the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "a virtuous growth cycle based on new technologies, products make firms, and firms:",
+    "options": [
+      "Remain firms",
+      "Shape industries",
+      "Become smug",
+      "Become irrelevant"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "In the pharmaceutical industry, though the therapies are clear, the product-market segmentation is complex because of the fact that:",
+    "options": [
+      "Therapies are many",
+      "Patients are individuals",
+      "Patients have individual genetic differences and comorbidities",
+      "Brands are in multitudes"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Orchid Chemicals & Pharmaceuticals Ltd illustrates the following requirements of a start-up success model:",
+    "options": [
+      "The entrepreneurial passion of the founder",
+      "The zeal of the leadership and employee team",
+      "The sage counsel of the Board of Directors",
+      "All the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "The core competence of an Indian pharmaceutical company oriented towards the US and EU markets must be:",
+    "options": [
+      "High manufacturing throughput",
+      "Multiple products",
+      "Ability to qualify for regulatory approvals from US FDA and UK MHRA",
+      "Strategy with tactics"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "The model of strategic alliances followed by Orchid Chemicals & Pharmaceuticals Ltd was:",
+    "options": [
+      "Product development by Orchid with Manufacturing and Sales & Marketing by the US partner",
+      "Product development by the US partner with Manufacturing and Sales & Marketing by Orchid",
+      "Product development, Manufacturing and Co-marketing by Orchid and the US partner",
+      "Product development and Manufacturing by Orchid with Sales & Marketing by the US partner"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "A consulting company can charge a higher price for its services when:",
+    "options": [
+      "It offers the same services without any newness",
+      "It is in a price-competitive market",
+      "Its competitors offer lower prices",
+      "It offers premium services"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "The metrics of a successful business development strategy for a pharmaceutical consulting company is reflected in:",
+    "options": [
+      "New customers contacted in a year",
+      "New proposals made to customers in a year",
+      "Proposals converted into purchase orders in a year",
+      "All the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Titan has been driving customer reach through multiple channels such as own retail network, premium retail network, exclusive outlets, multi-brand outlets, lifestyle stores, modern trade channels, e-commerce, corporate procurement, defence procurement, and this is called:",
+    "options": [
+      "Super-distributing",
+      "Wholesaling",
+      "Saturated retailing",
+      "Omnichannel retailing"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "questionText": "Titan's core competency in watch engineering may be termed as:",
+    "options": [
+      "Precision engineering",
+      "Heavy engineering",
+      "Custom engineering",
+      "Foreign engineering"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "Titan's founder-MD, who had the foresight and leadership to establish and grow Titan watches and Tanishq jewellery, was:",
+    "options": [
+      "JRD Tata",
+      "C K Venkataraman",
+      "Bhaskar Bhat",
+      "Xerxes Sapur Desai"
+    ],
+    "correctOptionIndex": 3
   }
 ]

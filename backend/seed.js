@@ -1,8 +1,9 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 const Question = require('./models/Question');
 const questionsData = require('./questions.json');
 
-mongoose.connect('mongodb://localhost:27017/exam-app')
+mongoose.connect(process.env.MONGO_URI)
   .then(async () => {
     console.log('Connected to MongoDB');
     

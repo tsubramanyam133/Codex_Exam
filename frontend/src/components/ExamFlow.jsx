@@ -7,8 +7,8 @@ const ExamFlow = () => {
   const [user, setUser] = useState(null);
   const [examResult, setExamResult] = useState(null);
 
-  const handleExamSubmit = (score, total) => {
-    setExamResult({ score, total });
+  const handleExamSubmit = (score, total, detailedResults) => {
+    setExamResult({ score, total, detailedResults });
   };
 
   return (
@@ -18,7 +18,7 @@ const ExamFlow = () => {
       ) : !examResult ? (
         <Exam user={user} onSubmit={handleExamSubmit} />
       ) : (
-        <ThankYou />
+        <ThankYou examResult={examResult} />
       )}
     </div>
   );

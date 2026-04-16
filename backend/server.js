@@ -89,11 +89,21 @@ app.post('/api/submit', async (req, res) => {
     }
 
     let score = 0;
+    let detailedResults = [];
     // Calculate score
     for (let ans of answers) {
       const q = await Question.findById(ans.questionId);
-      if (q && q.correctOptionIndex === ans.selectedOptionIndex) {
-        score++;
+      if (q) {
+        const isCorrect = q.correctOptionIndex === ans.selectedOptionIndex;
+        if (isCorrect) {
+          score++;
+        }
+        detailedResults.push({
+          questionText: q.questionText,
+          selectedOption: ans.selectedOptionIndex !== undefined && ans.selectedOptionIndex !== null ? q.options[ans.selectedOptionIndex] : 'Not Answered',
+          correctOption: q.options[q.correctOptionIndex],
+          isCorrect
+        });
       }
     }
 
@@ -106,7 +116,7 @@ app.post('/api/submit', async (req, res) => {
 
     await submission.save();
 
-    res.json({ message: 'Exam submitted successfully.', score, total: answers.length });
+    res.json({ message: 'Exam submitted successfully.', score, total: answers.length, detailedResults });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Server error saving submission.' });
